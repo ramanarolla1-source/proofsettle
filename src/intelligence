@@ -1,1 +1,129 @@
+# Intelligence
 
+## Overview
+
+The Intelligence module is responsible for managing **Verified Sports Intelligence** within the ProofSettle architecture.
+
+It receives trusted sports intelligence from external providers, validates the information, standardizes it into a machine-readable format, and prepares it for the Decision Engine.
+
+The Intelligence module does not make operational decisions. Its responsibility is to ensure that every decision begins with trusted, structured, and verifiable information.
+
+---
+
+## Responsibilities
+
+- Receive verified sports intelligence.
+- Process historical sports data.
+- Process live match events.
+- Process consensus odds.
+- Normalize machine-readable schemas.
+- Validate incoming intelligence.
+- Prepare structured intelligence for decision processing.
+
+---
+
+## Supported Intelligence Sources
+
+The Intelligence module is designed to work with verified sports intelligence providers.
+
+Current implementation is designed around:
+
+- TxLINE
+
+Potential future integrations may include additional trusted sports intelligence providers while maintaining the same standardized interface.
+
+---
+
+## Intelligence Processing
+
+Incoming sports intelligence follows a structured workflow.
+
+```
+Sports Intelligence Provider
+
+        │
+
+        ▼
+
+Information Validation
+
+        │
+
+        ▼
+
+Schema Standardization
+
+        │
+
+        ▼
+
+Integrity Verification
+
+        │
+
+        ▼
+
+Machine-Readable Intelligence
+
+        │
+
+        ▼
+
+Decision Engine
+```
+
+---
+
+## Design Principles
+
+The Intelligence module follows several guiding principles.
+
+- Verified information only.
+- Standardized data structures.
+- Deterministic processing.
+- Provider independence.
+- Cryptographic integrity.
+- Reliable downstream consumption.
+
+---
+
+## Output
+
+The Intelligence module produces structured, verified intelligence for the Decision Engine, including:
+
+- Match Information
+- Historical Data
+- Live Match Events
+- Consensus Odds
+- Machine-Readable Schemas
+- Validation Metadata
+
+---
+
+## Position in the Architecture
+
+```
+Verified Sports Intelligence
+
+        │
+
+        ▼
+
+Intelligence Module
+
+        │
+
+        ▼
+
+Decision Engine
+
+        │
+
+        ▼
+
+Trustless Settlement
+```
+
+---
+
+The Intelligence module establishes the trusted information foundation upon which every transparent operational decision is built.
