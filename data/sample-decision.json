@@ -1,1 +1,54 @@
+{
+  "decisionId": "DEC-2026-000001",
+  "decisionType": "Prediction Settlement",
+  "status": "Validated",
 
+  "match": {
+    "competition": "FIFA World Cup 2026",
+    "matchId": "WC2026-001",
+    "homeTeam": "Argentina",
+    "awayTeam": "Brazil",
+    "kickoff": "2026-07-12T18:00:00Z",
+    "finalScore": {
+      "home": 2,
+      "away": 1
+    }
+  },
+
+  "verifiedSportsIntelligence": {
+    "provider": "TxLINE",
+    "historicalData": true,
+    "liveMatchEvents": true,
+    "consensusOdds": true,
+    "machineReadableSchema": true,
+    "merkleProofVerification": "Verified",
+    "validateStat": "Passed"
+  },
+
+  "decisionIntelligence": {
+    "ruleEngine": "Executed",
+    "ruleEvaluation": "Passed",
+    "decisionValidation": "Passed",
+    "confidence": 100,
+    "decisionArtifact": "Generated",
+    "merkleTree": "Constructed"
+  },
+
+  "smartContract": {
+    "network": "Solana",
+    "contract": "PredictionSettlement",
+    "authorization": "Approved"
+  },
+
+  "outcome": {
+    "market": "Match Winner",
+    "selection": "Argentina",
+    "result": "Won"
+  },
+
+  "metadata": {
+    "generatedAt": "2026-07-12T19:45:12Z",
+    "generatedBy": "ProofSettle Decision Engine",
+    "version": "1.0.0"
+  }
+}
