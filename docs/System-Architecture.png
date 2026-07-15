@@ -1,1 +1,56 @@
+                     ProofSettle
+Transparent Decision Intelligence for Prediction & Settlement
 
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ Layer 1                                                                  │
+│                                                                          │
+│                 Verified Sports Intelligence                             │
+│                                                                          │
+│                           Powered by TxLINE                              │
+│                                                                          │
+│  • Historical Sports Data                                                │
+│  • Live SSE Match Streams                                                │
+│  • Consensus Odds                                                        │
+│  • Standardized Machine-Readable Schemas                                 │
+│  • Merkle Proof Verification                                             │
+│  • validate_stat                                                         │
+└──────────────────────────────────────────────────────────────────────────┘
+                                 │
+                                 ▼
+┌──────────────────────────────────────────────────────────────────────────┐
+│ Layer 2                                                                  │
+│                                                                          │
+│                           ProofSettle                                    │
+│                 Transparent Decision Intelligence                         │
+│                                                                          │
+│  • Decision Intelligence                                                 │
+│  • Smart Contract Rule Evaluation                                        │
+│  • Decision Validation                                                   │
+│  • Decision Artifacts                                                    │
+│  • Cryptographic Merkle Tree                                             │
+│  • Settlement Authorization                                              │
+└──────────────────────────────────────────────────────────────────────────┘
+                                 │
+                                 ▼
+┌──────────────────────────────────────────────────────────────────────────┐
+│ Layer 3                                                                  │
+│                                                                          │
+│                 Trustless On-Chain Settlement                            │
+│                                                                          │
+│                        Powered by Solana                                 │
+│                                                                          │
+│  • Smart Contract Execution                                              │
+│  • Immutable Settlement                                                  │
+│  • Transaction Confirmation                                              │
+└──────────────────────────────────────────────────────────────────────────┘
+                                 │
+                                 ▼
+                     ┌───────────────────────────────┐
+                     │        Trust Receipt          │
+                     │                               │
+                     │ Transparent                   │
+                     │ Explainable                   │
+                     │ Verifiable                    │
+                     │ Permanent History             │
+                     └───────────────────────────────┘
