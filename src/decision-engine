@@ -1,1 +1,83 @@
+# Decision Engine
 
+## Overview
+
+The Decision Engine is the core component of ProofSettle's **Transparent Decision Intelligence Layer**.
+
+Its responsibility is to transform verified sports intelligence into deterministic operational decisions before trustless on-chain settlement.
+
+Rather than executing settlement directly, the Decision Engine evaluates verified inputs, applies business rules, validates decision integrity, and prepares the decision for authorization.
+
+---
+
+## Responsibilities
+
+- Consume verified sports intelligence.
+- Normalize machine-readable inputs.
+- Orchestrate decision workflows.
+- Execute deterministic decision logic.
+- Coordinate rule evaluation.
+- Validate operational decisions.
+- Generate Decision Artifacts.
+- Authorize settlement.
+
+---
+
+## Input
+
+The Decision Engine receives verified sports intelligence, including:
+
+- Historical Sports Data
+- Live Match Events
+- Consensus Odds
+- Standardized Machine-Readable Schemas
+- Cryptographic Verification
+
+---
+
+## Output
+
+Successful execution produces:
+
+- Validated Operational Decision
+- Decision Artifact
+- Settlement Authorization
+- Trust Receipt Metadata
+
+---
+
+## Design Principles
+
+The Decision Engine follows five core principles:
+
+- Transparency
+- Explainability
+- Determinism
+- Verifiability
+- Integrity
+
+Every operational decision should be reproducible and independently verifiable.
+
+---
+
+## Position in the Architecture
+
+```
+Verified Sports Intelligence
+           │
+           ▼
+     Decision Engine
+           │
+           ▼
+Rule Evaluation
+           │
+           ▼
+Decision Validation
+           │
+           ▼
+Settlement Authorization
+```
+
+---
+
+The Decision Engine forms the operational core of ProofSettle, ensuring that every important decision follows a transparent procedure before settlement.
