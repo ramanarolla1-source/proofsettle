@@ -1,1 +1,108 @@
+# Utilities
 
+## Overview
+
+The Utilities module provides common functionality shared across the ProofSettle architecture.
+
+Unlike the Decision Engine, Rules Engine, Validation, Settlement, and Trust Receipt modules, the Utilities module does not contain business logic.
+
+Its purpose is to provide reusable services that simplify implementation, improve consistency, and reduce duplication throughout the platform.
+
+---
+
+# Responsibilities
+
+The Utilities module supports the platform by providing common services including:
+
+- Data normalization
+- Schema validation
+- Serialization
+- Timestamp generation
+- Identifier generation
+- Hashing utilities
+- Logging
+- Configuration management
+- Error handling
+- Common helper functions
+
+---
+
+# Typical Utility Components
+
+Examples of utilities include:
+
+- Decision ID Generator
+- Trust Receipt ID Generator
+- Timestamp Utilities
+- JSON Schema Helpers
+- Hash Utilities
+- Merkle Tree Helpers
+- Validation Helpers
+- Configuration Loader
+- Logging Helpers
+
+---
+
+# Design Principles
+
+Utility components should be:
+
+- Reusable
+- Stateless
+- Deterministic
+- Lightweight
+- Independent of business logic
+
+Utilities should never make operational decisions.
+
+Their responsibility is to support the higher-level modules while remaining generic and reusable.
+
+---
+
+# Position in the Architecture
+
+```
+                 ProofSettle
+
+      Intelligence Module
+              │
+              ▼
+       Decision Engine
+              │
+              ▼
+         Rules Engine
+              │
+              ▼
+          Validation
+              │
+              ▼
+          Settlement
+              │
+              ▼
+         Trust Receipt
+
+              ▲
+              │
+          Utilities
+```
+
+The Utilities module provides shared services to every component without participating directly in the operational decision workflow.
+
+---
+
+# Future Components
+
+As ProofSettle evolves, this module may include:
+
+- Cryptographic helpers
+- Merkle Tree utilities
+- Schema validation libraries
+- Serialization utilities
+- Configuration services
+- Audit logging
+- Performance monitoring
+- Common SDK helpers
+
+---
+
+The Utilities module forms the shared technical foundation that enables the ProofSettle platform to remain modular, maintainable, and consistent as new capabilities are introduced.
