@@ -1,1 +1,14 @@
+version: "3.9"
 
+services:
+  proofsettle:
+    container_name: proofsettle
+    image: proofsettle:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
