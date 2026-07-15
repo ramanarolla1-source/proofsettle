@@ -1,1 +1,55 @@
-
+┌──────────────────────────────────────────────────────────────┐
+│                    ProofSettle Trust Receipt                 │
+│                                                              │
+│         Transparent Decision Intelligence                    │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│ Receipt ID                                                   │
+│ TR-2026-000001                                               │
+│                                                              │
+│ Decision ID                                                  │
+│ DEC-2026-000001                                              │
+│                                                              │
+│ Match                                                        │
+│ Argentina vs Brazil                                          │
+│ FIFA World Cup 2026                                          │
+│                                                              │
+│ Final Result                                                 │
+│ Argentina 2 - 1 Brazil                                       │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│ Decision Journey                                             │
+│                                                              │
+│ ✓ Verified Sports Intelligence                               │
+│ ✓ Standardized Machine-Readable Schema                       │
+│ ✓ Decision Intelligence                                      │
+│ ✓ Smart Contract Rule Evaluation                             │
+│ ✓ Decision Validation                                        │
+│ ✓ Decision Artifact Generated                                │
+│ ✓ Cryptographic Merkle Tree                                  │
+│ ✓ Settlement Authorization                                   │
+│ ✓ Trustless On-Chain Settlement                              │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│ Verification                                                 │
+│                                                              │
+│ Provider             TxLINE                                  │
+│ Network              Solana                                  │
+│ Decision Status      VERIFIED                                │
+│ Settlement Status    CONFIRMED                               │
+│ Timestamp            2026-07-12 19:45 UTC                    │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│ Trust Statement                                              │
+│                                                              │
+│ This Trust Receipt records the complete decision journey,    │
+│ allowing the operational decision to be understood,          │
+│ inspected and independently verified before and after        │
+│ trustless settlement.                                        │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│                 Every Important Decision                     │
+│              Deserves a Transparent Procedure                │
+│                                                              │
+│                        ProofSettle                           │
+└──────────────────────────────────────────────────────────────┘
