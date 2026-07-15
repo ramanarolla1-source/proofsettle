@@ -1,1 +1,62 @@
+{
+  "matchId": "WC2026-001",
+  "competition": "FIFA World Cup 2026",
+  "season": "2026",
+  "status": "Finished",
 
+  "kickoff": "2026-07-12T18:00:00Z",
+  "fullTime": "2026-07-12T19:45:00Z",
+
+  "teams": {
+    "home": {
+      "id": "ARG",
+      "name": "Argentina"
+    },
+    "away": {
+      "id": "BRA",
+      "name": "Brazil"
+    }
+  },
+
+  "score": {
+    "home": 2,
+    "away": 1
+  },
+
+  "winner": "Argentina",
+
+  "verifiedSportsIntelligence": {
+    "provider": "TxLINE",
+    "historicalData": true,
+    "liveSSEStream": true,
+    "consensusOdds": true,
+    "machineReadableSchema": true,
+    "merkleProof": "Verified",
+    "validateStat": "Passed"
+  },
+
+  "matchStatistics": {
+    "possession": {
+      "home": 54,
+      "away": 46
+    },
+    "shotsOnTarget": {
+      "home": 7,
+      "away": 5
+    },
+    "corners": {
+      "home": 6,
+      "away": 4
+    },
+    "yellowCards": {
+      "home": 2,
+      "away": 3
+    }
+  },
+
+  "metadata": {
+    "source": "TxLINE",
+    "schemaVersion": "1.0",
+    "generatedAt": "2026-07-12T19:45:12Z"
+  }
+}
