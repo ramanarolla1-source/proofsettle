@@ -1,1 +1,147 @@
+# Rules Engine
 
+## Overview
+
+The Rules Engine is responsible for evaluating deterministic business rules that govern operational decisions within ProofSettle.
+
+After the Decision Engine prepares a decision candidate, the Rules Engine verifies that all predefined business rules and settlement conditions have been satisfied before the decision can proceed to validation and authorization.
+
+The Rules Engine ensures that every operational decision follows a consistent, transparent, and reproducible procedure.
+
+---
+
+## Responsibilities
+
+- Execute deterministic business rules.
+- Evaluate settlement conditions.
+- Validate operational criteria.
+- Detect rule conflicts.
+- Produce rule evaluation results.
+- Support transparent decision-making.
+
+---
+
+## Rule Evaluation Process
+
+Every decision follows the same rule evaluation lifecycle.
+
+```
+Decision Candidate
+
+        │
+
+        ▼
+
+Load Applicable Rules
+
+        │
+
+        ▼
+
+Evaluate Business Logic
+
+        │
+
+        ▼
+
+Validate Rule Conditions
+
+        │
+
+        ▼
+
+Generate Rule Evaluation Result
+
+        │
+
+        ▼
+
+Decision Validation
+```
+
+---
+
+## Example Rule
+
+Market
+
+```
+Match Winner
+```
+
+Rule
+
+```
+If Final Winner == Selected Team
+```
+
+Outcome
+
+```
+Prediction Successful
+```
+
+---
+
+## Design Principles
+
+The Rules Engine follows several guiding principles.
+
+- Deterministic execution.
+- Explainable rule evaluation.
+- Transparent decision logic.
+- Independent verification.
+- Reproducible outcomes.
+- No hidden business logic.
+
+Given the same verified sports intelligence and the same rule set, the Rules Engine should always produce the same result.
+
+---
+
+## Output
+
+Successful rule evaluation produces:
+
+- Rule Evaluation Summary
+- Decision Status
+- Validation Metadata
+- Rule Execution History
+- Decision Context
+
+These outputs are forwarded to the Validation module for integrity verification.
+
+---
+
+## Position in the Architecture
+
+```
+Verified Sports Intelligence
+
+        │
+
+        ▼
+
+Decision Engine
+
+        │
+
+        ▼
+
+Rules Engine
+
+        │
+
+        ▼
+
+Validation
+
+        │
+
+        ▼
+
+Settlement
+```
+
+---
+
+The Rules Engine provides the transparent business logic that transforms verified sports intelligence into trusted operational decisions while ensuring every decision remains deterministic, explainable, and independently verifiable.
